@@ -3,7 +3,7 @@ A light-weight module that aims to make HTTP requests clean, intuitive, reusable
 
 ## Goals:
 
-[] Move to Typescript
-[] Handle common headers
-[] Use babel and maybe a Webpack
-[] Be used for the first time! :D
+- [ ] Move to Typescript
+- [ ] Handle common headers
+- [ ] Use babel and maybe a Webpack
+- [ ] Be used for the first time! :D
