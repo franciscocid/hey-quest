@@ -1,4 +1,4 @@
-# Hey
+# Hey Quest
 
 ![npm version](https://img.shields.io/npm/v/hey-quest.svg?style=flat-square)
 ![install size](https://img.shields.io/bundlephobia/min/hey-quest?label=size&style=flat-square)
