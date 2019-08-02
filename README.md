@@ -37,29 +37,6 @@ Using cdn:
   async await TODO: GET EXAMPLE
 ```
 
-## Goals:
-
-- [ ] Add better examples
-- [ ] Add CDN and update README.md installation
-- [ ] Separata lib and examples
-- [ ] Publish to NPM
-- [ ] Get a logo c:
-- [ ] Move to Typescript
-- [ ] Handle common headers
-- [ ] Use babel and maybe a Webpack
-- [ ] Be used for the first time! :D
-
-## Documentation:
-
-- [ ] NPM Keywords
-- [ ] NPM Examples
-- [ ] Examples folder
-- [ ] Better texts and stuff
-
-## Next Features:
-
-- [ ] Pass query parameters as a JSON Object.
-
 ## Credits
 
 Hey-quest is a library made by Francisco Cidade (@FranckCid).
