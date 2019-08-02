@@ -14,11 +14,13 @@ class Hey{
 	// Append to header (Note: if you want to replace headers, use forceHeaders
 	headers(newHeaders){
 		this.headers = {...this.headers, ...newHeaders}
+		return this
 	}
 
 	// Append to body (Note: if you want to replace body, use forceBody
 	body(newBody){
 		this.body = {...this.body, ...newBody}
+		return this
 	}
 
 	// Set properties directly	
@@ -43,6 +45,7 @@ class Hey{
 
 	forceBody(body){
 		this.body = body
+		return this
 	}
 
 	// Clear properties
@@ -51,18 +54,22 @@ class Hey{
 		this.headers = {}
 		this.body = null
 		this.response = null
+		return this
 	}
 
 	clearHeaders(){
 		this.headers = {}
+		return this
 	}
 
 	clearBody(){
 		this.body = this.method.hasBody ? {} : null
+		return this
 	}
 
 	clearResponse(){
 		this.response = null
+		return this
 	}
 
 	// HTTP Methods
@@ -109,6 +116,7 @@ class Hey{
 		if(this.response)
 			return this.response
 		Hey.error('Ńo response.')
+		return this
 	}
 
 	// Format configuration and execute request
