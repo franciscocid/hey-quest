@@ -18,3 +18,7 @@ A light-weight module that aims to make HTTP requests clean, intuitive, reusable
 - [ ] NPM Examples
 - [ ] Examples folder
 - [ ] Better texts and stuff
+
+## Features:
+
+- [ ] Pass query parameters as a JSON Object.
