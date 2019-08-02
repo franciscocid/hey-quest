@@ -116,7 +116,6 @@ class Hey{
 		if(this.response)
 			return this.response
 		Hey.error('Ńo response.')
-		return this
 	}
 
 	// Format configuration and execute request
@@ -124,6 +123,7 @@ class Hey{
 		console.log(`The method ${this.method.name} was called on url: ${this.url}`)
 		try{
 			this.response = fetch(this.url, this.config())
+			return this.res()
 		}catch(err){
 			Hey.error('Faied to fetch. :/', err)
 		}
