@@ -104,11 +104,30 @@ class Hey{
 	}
 
 	// Useful Headers shortcuts
-	// ...
-	// ... contentType
-	// ... auth
-	// ... acceptedType
-	// ...
+	// Header properties are padronized as:
+	// >> 'Header name': `Header properties and ${variables}`
+	// All that just for better reading
+	
+	auth(token){
+		return this.headers({
+			'Authorization': `${token}`
+		})	
+	}
+
+	contentType(type){
+		return this.headers({
+			'Content-Type': `${type}`
+		)}
+	}
+
+	accept(type){
+		return this.headers({
+			'Accept': `${type}`
+		)}
+	}
+
+	// ... 
+	// ... More headers are going to be added eventyally when they're needed.
 	// ...
 
 	// Get response from last search
