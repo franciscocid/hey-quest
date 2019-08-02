@@ -2,6 +2,6 @@
 *.swp
 *.swo
 package-lock.json
-/examples/*
-!/examples/index.js
-!/examples/package.json
+/examples/get_example/node_modules
+!/examples/get_example/index.js
+!/examples/get_example/package.json
