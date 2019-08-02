@@ -104,6 +104,7 @@ class Hey{
 	}
 
 	// Useful Headers shortcuts
+	// Some of the Headers have alias. Ex: auth(...) and authorization(...)
 	// Header properties are padronized as:
 	// >> 'Header name': `Header properties and ${variables}`
 	// All that just for better reading
@@ -113,6 +114,7 @@ class Hey{
 			'Authorization': `${token}`
 		})	
 	}
+	authorization(token){return this.auth(token)}
 
 	contentType(type){
 		return this.headers({
