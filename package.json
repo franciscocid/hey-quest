@@ -1,6 +1,6 @@
 {
   "name": "hey-quest",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple and intuitive way of making requests to an API.",
   "main": "src/index.js",
   "scripts": {
