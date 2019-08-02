@@ -1,6 +1,6 @@
-const hey = require('hey')
+const hey = require('hey-quest')
 
-async function get_example(){
+async function example(){
 	try{
 		const res = await hey('https://jsonplaceholder.typicode.com/todos/1').do()
 		const json = await res.json()
