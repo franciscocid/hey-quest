@@ -12,6 +12,7 @@
   "author": "Francisco Cidade (github.com/FranckCid)",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^6.1.0",
     "nodemon": "^1.19.1",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
