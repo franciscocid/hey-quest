@@ -23,18 +23,31 @@ Using yarn:
 $ yarn add hey-quest
 ```
 
-Using cdn:
-
-```html
-  ... TODO: Add to a CDN
-```
-
 ## Usage
 
 > We don't recommend using .then() and .catch
 
 ```javascript
-  async await TODO: GET EXAMPLE
+  // Import hey-quest
+  const hey = require('hey-quest')
+  
+  // Declare an async function
+  async function example(){
+    try{
+      // Configure the request and call it with ".do()"
+      const res = await hey('https://jsonplaceholder.typicode.com/todos/1').do()
+      // Convert the response into a javascript object
+      const json = await res.json()
+      // Logs the json
+      console.log(json)
+    }catch(e){
+      // Inform an error if the request failed
+      console.error(e)
+    }
+  }
+  
+  //Call the above function
+  example()
 ```
 
 ## Credits
