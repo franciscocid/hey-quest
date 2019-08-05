@@ -7,7 +7,11 @@
 A promise based light-weight module that aims to make HTTP requests clean, intuitive, reusable and understandable.
 
 ## Features
-> ...
+
+- Easy to use
+- Clean syntax
+- Intuitive
+- Lightweight
 
 ## Installing
 
@@ -46,7 +50,7 @@ $ yarn add hey-quest
     }
   }
   
-  //Call the above function
+  // Call the above function
   example()
 ```
 
