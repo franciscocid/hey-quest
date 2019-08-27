@@ -3,9 +3,9 @@
 
 
 hey-quest@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/hey-quest/-/hey-quest-1.1.1.tgz#0f9a716939c4d990e667e5b8b74bff1e370bc576"
-  integrity sha512-YGlPrgwxqp7CgMbLDAYzrGK+N7dC4H/qdwcXL240T5cLtuurdZKKDscGS+Lm+EXmlHQUUNopQWe/dAOgORdpPA==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/hey-quest/-/hey-quest-1.1.4.tgz#cc70c3183653fb4107efceab21a84a9e2eb02912"
+  integrity sha512-F0fyai+ySNuv96BXr1FZFKwTu0KaWdFOM5cT3bVMlQq1pTM5BbUnsJ+NXKKcn/aew6vWub+QAW7VISk0HJ5OfA==
   dependencies:
     node-fetch "^2.6.0"
 
